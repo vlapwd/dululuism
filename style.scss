@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+    font-size: 2rem;
+    background:#ffeeeb;
+}
+
+.dululu{
+    width: 100%;
+    font-family:sans-serif;
+    &__box{
+      animation: idou 4s linear infinite;
+    }
+  }
+  
+  @keyframes idou{
+    0% { transform:translateX(0%); }
+  100% { transform:translateX( 100%); }
+  }
+
+  .manji{
+    display:inline-block;
+    animation: guruguru 0.5s linear infinite;
+  }
+  
+  @keyframes guruguru{
+      0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

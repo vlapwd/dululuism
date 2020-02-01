@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  font-size: 2rem;
+  background: #ffeeeb;
+}
+
+.dululu {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.dululu__box {
+  -webkit-animation: idou 4s linear infinite;
+          animation: idou 4s linear infinite;
+}
+
+@-webkit-keyframes idou {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@keyframes idou {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+.manji {
+  display: inline-block;
+  -webkit-animation: guruguru 0.5s linear infinite;
+          animation: guruguru 0.5s linear infinite;
+}
+
+@-webkit-keyframes guruguru {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes guruguru {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
