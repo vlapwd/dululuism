@@ -28,6 +28,10 @@ html, body {
 }
 
 .dululu__box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-animation: idou 4s linear infinite;
           animation: idou 4s linear infinite;
 }
