@@ -18,6 +18,8 @@ html, body{
     box-shadow: -23px -23px 55px #cdbdbb, 
                  23px 23px 55px #fffffd;
     &__box{
+      width: 100%;
+      display: flex;
       animation: idou 4s linear infinite;
     }
   }
