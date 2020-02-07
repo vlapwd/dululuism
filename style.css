@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 1.25rem;
-  background: #ffeeeb;
+  background: #d2d5d6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,9 +22,9 @@ html, body {
           align-items: center;
   font-family: sans-serif;
   border-radius: 50px;
-  background: linear-gradient(315deg, #ffeeeb, #d9c8c6);
-  -webkit-box-shadow: -23px -23px 55px #cdbdbb,  23px 23px 55px #fffffd;
-          box-shadow: -23px -23px 55px #cdbdbb,  23px 23px 55px #fffffd;
+  background: linear-gradient(145deg, #d2d5d6, #f9feff);
+  -webkit-box-shadow: 41px 41px 82px #cdd1d1,  -41px -41px 82px #ffffff;
+          box-shadow: 41px 41px 82px #cdd1d1,  -41px -41px 82px #ffffff;
 }
 
 .dululu__box {
