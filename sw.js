@@ -1,8 +1,4 @@
-// キャッシュファイルの指定
-var CACHE_NAME = 'dululuism-pwa';
-var urlsToCache = [
-    '/vlapwd.github.io/',
-];
+const CACHE_NAME = 'dululuism-pwa';
 
 // インストール処理
 self.addEventListener('install', function(event) {
@@ -10,7 +6,7 @@ self.addEventListener('install', function(event) {
         caches
             .open(CACHE_NAME)
             .then(function(cache) {
-                return cache.addAll(urlsToCache);
+                return cache.addAll('/images');
             })
     );
 });
